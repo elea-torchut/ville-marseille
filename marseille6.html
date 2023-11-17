@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="marseille6.css">
+</head>
+<body>
+
+    <header>
+        <nav>
+            <ul class="menu">
+                <li><a href="marseille.html">Accueil</a></li>
+                <li class="dropdown">
+                    <a href="#">Découvrir</a>
+                    <ul class="dropdown-content">
+                        <li><a href="./marseille1.html">Histoire de Marseille</a></li>
+                        <li><a href="./marseille2.html">Randonnées</a></li>
+                        <li><a href="./marseille3.html">Plages</a></li>
+                        <li><a href="./marseille4.html">Parcs publics</a></li>
+                        <li><a href="./marseille5.html">Musées</a></li>
+                    </ul>
+                </li>
+                <li><a href="./marseille6.html">Contact</a></li>
+                <li><img src="assets/photo/logo_Ville_de_Marseille_2021_0.png" alt=""></li>
+            </ul>
+        </nav>
+    </header>
+
+    <div class="container">
+        <h1>Formulaire de contact</h1>
+        <form action="/action_page.php">
+          <label for="fname">Nom & prénom</label>
+          <input type="text" id="fname" name="firstname" placeholder="Votre nom et prénom">
+      
+          <label for="sujet">Sujet</label>
+          <input type="text" id="sujet" name="sujet" placeholder="L'objet de votre message">
+      
+          <label for="emailAddress">Email</label>
+          <input id="emailAddress" type="email" name="email" placeholder="Votre email">
+      
+      
+          <label for="subject">Message</label>
+          <textarea id="subject" name="subject" placeholder="Votre message" style="height:200px"></textarea>
+      
+          <input type="submit" value="Envoyer">
+        </form>
+      </div>
+
+      <footer>
+        <nav class="footer-menu">
+            <ul>
+                <li><a href="#">Accueil</a></li>
+                <li><a href="./marseille1.html">Histoire de Marseille</a></li>
+                <li><a href="./marseille2.html">Randonnées</a></li>
+                <li><a href="./marseille3.html">Plages</a></li>
+                <li><a href="./marseille4.html">Parcs publics</a></li>
+                <li><a href="./marseille5.html">Musées</a></li>
+                <li><a href="./marseille6.html">Contact</a></li>
+                <div id="logo-marseille-f">
+                    <img src="./assets/photo/logo-marseille.png" alt="">
+                </div>
+            </ul>
+        </nav>
+    </footer>
+
+</body>
+</html>
